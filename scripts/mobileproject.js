@@ -43,7 +43,7 @@ function renderPlaces(places) {
     //icon.setAttribute('name', place.name);         修改前
     icon.setAttribute('name', places[i].name);      //修改後
     icon.setAttribute('building', places[i].building);
-    icon.setAttribute('src','https://dylan1211-hub.github.io/smalltest/assets/r1.png');
+    icon.setAttribute('src','https://dylan1211-hub.github.io/AR_project/assets/r1.png');
 
     icon.setAttribute('scale','10, 10');
 
@@ -70,7 +70,7 @@ function renderPlaces(places) {
     //icon.setAttribute('name', place.name);         修改前
     icon.setAttribute('name', places[i].name);      //修改後
     icon.setAttribute('building', places[i].building);
-    icon.setAttribute('src','https://dylan1211-hub.github.io/smalltest/assets/r2.png');
+    icon.setAttribute('src','https://dylan1211-hub.github.io/AR_project/assets/r2.png');
 
     icon.setAttribute('scale','10, 10');
 
@@ -97,7 +97,7 @@ function renderPlaces(places) {
     //icon.setAttribute('name', place.name);         修改前
     icon.setAttribute('name', places[i].name);      //修改後
     icon.setAttribute('building', places[i].building);
-    icon.setAttribute('src','https://dylan1211-hub.github.io/smalltest/assets/r3.png');
+    icon.setAttribute('src','https://dylan1211-hub.github.io/AR_project/assets/r3.png');
 
     icon.setAttribute('scale','10, 10');
 
@@ -124,7 +124,7 @@ function renderPlaces(places) {
     //icon.setAttribute('name', place.name);         修改前
     icon.setAttribute('name', places[i].name);      //修改後
     icon.setAttribute('building', places[i].building);
-    icon.setAttribute('src','https://dylan1211-hub.github.io/smalltest/assets/r4.png');
+    icon.setAttribute('src','https://dylan1211-hub.github.io/AR_project/assets/r4.png');
 
     icon.setAttribute('scale','10, 10');
 
