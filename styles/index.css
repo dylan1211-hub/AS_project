@@ -1,0 +1,128 @@
+span {
+    margin-right: 0.5em;
+}
+
+div.debug {
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(1, 1, 1, 0.2);
+    color: #f6aa2f;
+    font-size: 0.75em;
+    padding: 0.5em;
+    width: initial;
+}
+
+.map { 
+    border: 5px solid rgba(255, 255, 255, 0.582);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9990; 
+    padding:100px; 
+    bottom:0.2px;
+    left: 10px;
+    margin:0;
+    width: initial;
+    height: initial;
+}
+#map {
+    height: 20px;
+    border: 5px solid rgba(255, 255, 255, 0.582);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9990; 
+    padding: 55px; 
+    bottom:5px;
+    left: 5px;
+    margin:0;
+    width: 20px;
+  }
+
+.checkbox{
+    border: 0.5px solid rgba(255, 255, 255, 0.582);
+    border-radius: 15px;
+    position: fixed;
+    margin-right: 0.25em;
+    z-index: 999;
+    top:5px;
+    right: 5px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.582);
+    color: #000000;
+    font-size: 0.75em;
+    padding: 5px;
+    width: initial;
+}
+.cbtn{
+  border: 1px solid #63d4f6d8;
+  border-radius: 10px;
+  outline: none;
+  background-color: #63d4f6cc;
+  color: white;
+  padding: 3px;
+  cursor: pointer;
+  justify-content: center;
+  transition: 0.3s;
+  width: 100%;
+}
+
+#alert-popup {
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    display: block;
+    width: 80%;
+    margin: 1em;
+    padding: 0.25em;
+    color: #f68052;
+    font-size: 0.75em;
+    text-align: center;
+    background-color: white;
+}
+
+#place-label {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#place-label > span {
+    z-index: 99999;
+    padding: 0.25em;
+    color: #1ea5e4;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.548);
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.arjs-loader {
+    position: fixed;
+    z-index: 999;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+	pointer-events: none;
+	border: 0.4em solid transparent;
+	border-color: #eee;
+	border-top-color: #444;
+	border-radius: 50%;
+	animation: loadingspin 1s linear infinite;
+}
+
+@keyframes loadingspin {
+	100% {
+			transform: rotate(360deg)
+	}
+}
