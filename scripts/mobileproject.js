@@ -2,8 +2,8 @@ window.onload = () => {
     let places = [
         {
             name: 'Restaurant',
-            lat: 22.99823264,
-            lon: 120.2184491,
+            lat: 22.9980262477688, 
+            lon: 120.21874739630229,
             building:"計中大樓"
         },
         {
