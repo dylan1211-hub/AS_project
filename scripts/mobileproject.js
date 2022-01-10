@@ -1,25 +1,25 @@
 window.onload = () => {
     let places = [
         {
-            name: '餐廳',
+            name: 'Restaurant',
             lat: 22.99823264,
             lon: 120.2184491,
             building:"計中大樓"
         },
         {
-         name: '澡堂',
+         name: 'Bathhouse',
          lat: 22.99835242,
          lon: 120.2197066,
          building:"化學系館"
         },
         {
-         name: '公園',
+         name: 'Park',
          lat:22.99861667,
          lon:120.2205475,
          building:"材料系館"
         },
         {
-         name: '廁所',
+         name: 'Toilet',
          lat:22.99967413348661, 
          lon:120.21979499894803,
          building:"總圖"
