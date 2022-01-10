@@ -24,12 +24,6 @@ window.onload = () => {
          lon:120.21979499894803,
          building:"總圖"
         },
-        {
-            name: '萬紅刀切麵',
-            lat:23.010148836235047,  
-            lon:120.22477253110293,
-            building:"總圖"
-        },
  
     ];
     renderPlaces(places);
